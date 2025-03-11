@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
          }
       }
 
-        if (Input.GetKeyDown(KeyCode.Space) && noChao == true)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && noChao == true)
         {
             _rigidbody2D.AddForce(new Vector2(0, 1) * focaPulo,ForceMode2D.Impulse);
 
